@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4211B7A1B3C512D006BB0F9 /* XuanThuyBirds.ipa.zip in Resources */ = {isa = PBXBuildFile; fileRef = B4211B791B3C512D006BB0F9 /* XuanThuyBirds.ipa.zip */; };
 		B4F6E4C31B20A2D20004A064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6E4C21B20A2D20004A064 /* main.m */; };
 		B4F6E4C61B20A2D20004A064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6E4C51B20A2D20004A064 /* AppDelegate.m */; };
 		B4F6E4C91B20A2D20004A064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6E4C81B20A2D20004A064 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		B4F6E4CE1B20A2D20004A064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F6E4CD1B20A2D20004A064 /* Images.xcassets */; };
 		B4F6E4D11B20A2D20004A064 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F6E4CF1B20A2D20004A064 /* LaunchScreen.xib */; };
 		B4F6E4DD1B20A2D20004A064 /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6E4DC1B20A2D20004A064 /* UtilitiesTests.m */; };
+		B4F6E4E91B20A3450004A064 /* UILabel+UILabelHeightDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6E4E81B20A3450004A064 /* UILabel+UILabelHeightDynamic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4211B791B3C512D006BB0F9 /* XuanThuyBirds.ipa.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = XuanThuyBirds.ipa.zip; sourceTree = "<group>"; };
 		B4F6E4BD1B20A2D20004A064 /* Utilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F6E4C11B20A2D20004A064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F6E4C21B20A2D20004A064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		B4F6E4D61B20A2D20004A064 /* UtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F6E4DB1B20A2D20004A064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F6E4DC1B20A2D20004A064 /* UtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
+		B4F6E4E71B20A3450004A064 /* UILabel+UILabelHeightDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UILabelHeightDynamic.h"; sourceTree = "<group>"; };
+		B4F6E4E81B20A3450004A064 /* UILabel+UILabelHeightDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabelHeightDynamic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		B4F6E4BF1B20A2D20004A064 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B4211B791B3C512D006BB0F9 /* XuanThuyBirds.ipa.zip */,
+				B4F6E4E61B20A3220004A064 /* Label */,
 				B4F6E4C41B20A2D20004A064 /* AppDelegate.h */,
 				B4F6E4C51B20A2D20004A064 /* AppDelegate.m */,
 				B4F6E4C71B20A2D20004A064 /* ViewController.h */,
@@ -117,6 +124,15 @@
 				B4F6E4DB1B20A2D20004A064 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4F6E4E61B20A3220004A064 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				B4F6E4E71B20A3450004A064 /* UILabel+UILabelHeightDynamic.h */,
+				B4F6E4E81B20A3450004A064 /* UILabel+UILabelHeightDynamic.m */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4211B7A1B3C512D006BB0F9 /* XuanThuyBirds.ipa.zip in Resources */,
 				B4F6E4CC1B20A2D20004A064 /* Main.storyboard in Resources */,
 				B4F6E4D11B20A2D20004A064 /* LaunchScreen.xib in Resources */,
 				B4F6E4CE1B20A2D20004A064 /* Images.xcassets in Resources */,
@@ -221,6 +238,7 @@
 			files = (
 				B4F6E4C91B20A2D20004A064 /* ViewController.m in Sources */,
 				B4F6E4C61B20A2D20004A064 /* AppDelegate.m in Sources */,
+				B4F6E4E91B20A3450004A064 /* UILabel+UILabelHeightDynamic.m in Sources */,
 				B4F6E4C31B20A2D20004A064 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				B4F6E4E21B20A2D20004A064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4F6E4E31B20A2D20004A064 /* Build configuration list for PBXNativeTarget "UtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				B4F6E4E51B20A2D20004A064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
